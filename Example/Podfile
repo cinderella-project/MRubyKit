@@ -1,12 +1,22 @@
-use_frameworks!
+source 'https://cdn.cocoapods.org/'
+source 'https://github.com/cinderella-project/PodsSpecs'
 
-target 'MRubyKit_Example' do
+abstract_target 'MRubyKit-Examples' do
+  use_frameworks!
+  pod 'libmruby'
   pod 'MRubyKit', :path => '../'
 
-  target 'MRubyKit_Tests' do
-    inherit! :search_paths
+  target 'MRubyKit_Example' do
+    platform :ios, '13.0'
+    target 'MRubyKit_Tests' do
+      inherit! :search_paths
 
-    pod 'Quick', '~> 1.2.0'
-    pod 'Nimble', '~> 7.0'
+      pod 'Quick', '~> 1.2.0'
+      pod 'Nimble', '~> 7.0'
+    end
+  end
+
+  target 'MRubyKit_Example_Mac' do
+    platform :osx, '10.15'
   end
 end

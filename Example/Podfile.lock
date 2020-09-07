@@ -1,0 +1,33 @@
+PODS:
+  - "libmruby (2.1.2+0.0.1)"
+  - MRubyKit (0.1.0):
+    - libmruby
+  - Nimble (7.3.4)
+  - Quick (1.2.0)
+
+DEPENDENCIES:
+  - libmruby
+  - MRubyKit (from `../`)
+  - Nimble (~> 7.0)
+  - Quick (~> 1.2.0)
+
+SPEC REPOS:
+  https://github.com/cinderella-project/PodsSpecs:
+    - libmruby
+  trunk:
+    - Nimble
+    - Quick
+
+EXTERNAL SOURCES:
+  MRubyKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  libmruby: 07f7feecdcc0303058dba388df39086ec676b654
+  MRubyKit: d48b8393996a744ac7f9bb60c0b4c58aa6523da8
+  Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+
+PODFILE CHECKSUM: e419d0a4da1d914a534b3a91b12bf06d3eb9ac48
+
+COCOAPODS: 1.9.3

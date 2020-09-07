@@ -13,6 +13,13 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		86BC405B7D3B8E42D093E341 /* Pods_MRubyKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FA40563E6754AC094CB29BE /* Pods_MRubyKit_Tests.framework */; };
+		909991F0A0798A1A78B94A2E /* Pods_MRubyKit_Examples_MRubyKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47CD84E18BFC401C76ED40F2 /* Pods_MRubyKit_Examples_MRubyKit_Example.framework */; };
+		CEE8FF112505589400DACF50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE8FF102505589400DACF50 /* AppDelegate.swift */; };
+		CEE8FF132505589400DACF50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE8FF122505589400DACF50 /* ViewController.swift */; };
+		CEE8FF152505589500DACF50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE8FF142505589500DACF50 /* Assets.xcassets */; };
+		CEE8FF182505589500DACF50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE8FF162505589500DACF50 /* Main.storyboard */; };
+		EE33C16879EC31129B73D481 /* Pods_MRubyKit_Examples_MRubyKit_Example_Mac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C17832EA75575860D711B030 /* Pods_MRubyKit_Examples_MRubyKit_Example_Mac.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,7 +33,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		341759CFF55C4887C585A674 /* MRubyKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MRubyKit.podspec; path = ../MRubyKit.podspec; sourceTree = "<group>"; };
+		0ECFA71D6B506A8977E8349D /* Pods-MRubyKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MRubyKit_Example.release.xcconfig"; path = "Target Support Files/Pods-MRubyKit_Example/Pods-MRubyKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2B7F6963FB09648C5C66F79E /* Pods-MRubyKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MRubyKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-MRubyKit_Example/Pods-MRubyKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		341759CFF55C4887C585A674 /* MRubyKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MRubyKit.podspec; path = ../MRubyKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		47CD84E18BFC401C76ED40F2 /* Pods_MRubyKit_Examples_MRubyKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MRubyKit_Examples_MRubyKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5225FB786B06B898363A7D36 /* Pods-MRubyKit-Examples-MRubyKit_Example_Mac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MRubyKit-Examples-MRubyKit_Example_Mac.debug.xcconfig"; path = "Target Support Files/Pods-MRubyKit-Examples-MRubyKit_Example_Mac/Pods-MRubyKit-Examples-MRubyKit_Example_Mac.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* MRubyKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MRubyKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -37,8 +48,24 @@
 		607FACE51AFB9204008FA782 /* MRubyKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MRubyKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		8B57A91EC011A4BCB4E3F474 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		F261A8D3112DA490F5D0FB3B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7A8251EFDF972EE4F2AE9F98 /* Pods-MRubyKit-Examples-MRubyKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MRubyKit-Examples-MRubyKit_Example.release.xcconfig"; path = "Target Support Files/Pods-MRubyKit-Examples-MRubyKit_Example/Pods-MRubyKit-Examples-MRubyKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		822C82850336F4B024909512 /* Pods-MRubyKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MRubyKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-MRubyKit_Tests/Pods-MRubyKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		87C5196B59E764C1B2EA7F16 /* Pods-MRubyKit-Examples-MRubyKit_Example_Mac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MRubyKit-Examples-MRubyKit_Example_Mac.release.xcconfig"; path = "Target Support Files/Pods-MRubyKit-Examples-MRubyKit_Example_Mac/Pods-MRubyKit-Examples-MRubyKit_Example_Mac.release.xcconfig"; sourceTree = "<group>"; };
+		8B57A91EC011A4BCB4E3F474 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8FA40563E6754AC094CB29BE /* Pods_MRubyKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MRubyKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9508F0723E72F55E78E4E1FA /* Pods-MRubyKit_Example_Mac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MRubyKit_Example_Mac.release.xcconfig"; path = "Target Support Files/Pods-MRubyKit_Example_Mac/Pods-MRubyKit_Example_Mac.release.xcconfig"; sourceTree = "<group>"; };
+		BDB90D52C2A44C3408F306DC /* Pods-MRubyKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MRubyKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MRubyKit_Tests/Pods-MRubyKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C17832EA75575860D711B030 /* Pods_MRubyKit_Examples_MRubyKit_Example_Mac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MRubyKit_Examples_MRubyKit_Example_Mac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE8FF0E2505589400DACF50 /* MRubyKit_Example_Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MRubyKit_Example_Mac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE8FF102505589400DACF50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEE8FF122505589400DACF50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEE8FF142505589500DACF50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEE8FF172505589500DACF50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEE8FF192505589500DACF50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE8FF1A2505589500DACF50 /* MRubyKit_Example_Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MRubyKit_Example_Mac.entitlements; sourceTree = "<group>"; };
+		D1D45E19C66E8CFB2A4805CD /* Pods-MRubyKit-Examples-MRubyKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MRubyKit-Examples-MRubyKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-MRubyKit-Examples-MRubyKit_Example/Pods-MRubyKit-Examples-MRubyKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E48E764FD759E3100A2A7DBF /* Pods-MRubyKit_Example_Mac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MRubyKit_Example_Mac.debug.xcconfig"; path = "Target Support Files/Pods-MRubyKit_Example_Mac/Pods-MRubyKit_Example_Mac.debug.xcconfig"; sourceTree = "<group>"; };
+		F261A8D3112DA490F5D0FB3B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				909991F0A0798A1A78B94A2E /* Pods_MRubyKit_Examples_MRubyKit_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,19 +81,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86BC405B7D3B8E42D093E341 /* Pods_MRubyKit_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE8FF0B2505589400DACF50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE33C16879EC31129B73D481 /* Pods_MRubyKit_Examples_MRubyKit_Example_Mac.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07D4BD666FAA21A32CD51729 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B7F6963FB09648C5C66F79E /* Pods-MRubyKit_Example.debug.xcconfig */,
+				0ECFA71D6B506A8977E8349D /* Pods-MRubyKit_Example.release.xcconfig */,
+				E48E764FD759E3100A2A7DBF /* Pods-MRubyKit_Example_Mac.debug.xcconfig */,
+				9508F0723E72F55E78E4E1FA /* Pods-MRubyKit_Example_Mac.release.xcconfig */,
+				5225FB786B06B898363A7D36 /* Pods-MRubyKit-Examples-MRubyKit_Example_Mac.debug.xcconfig */,
+				87C5196B59E764C1B2EA7F16 /* Pods-MRubyKit-Examples-MRubyKit_Example_Mac.release.xcconfig */,
+				D1D45E19C66E8CFB2A4805CD /* Pods-MRubyKit-Examples-MRubyKit_Example.debug.xcconfig */,
+				7A8251EFDF972EE4F2AE9F98 /* Pods-MRubyKit-Examples-MRubyKit_Example.release.xcconfig */,
+				BDB90D52C2A44C3408F306DC /* Pods-MRubyKit_Tests.debug.xcconfig */,
+				822C82850336F4B024909512 /* Pods-MRubyKit_Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for MRubyKit */,
 				607FACE81AFB9204008FA782 /* Tests */,
+				CEE8FF0F2505589400DACF50 /* MRubyKit_Example_Mac */,
 				607FACD11AFB9204008FA782 /* Products */,
+				07D4BD666FAA21A32CD51729 /* Pods */,
+				B9309F487B16FF74C8AEF410 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,6 +131,7 @@
 			children = (
 				607FACD01AFB9204008FA782 /* MRubyKit_Example.app */,
 				607FACE51AFB9204008FA782 /* MRubyKit_Tests.xctest */,
+				CEE8FF0E2505589400DACF50 /* MRubyKit_Example_Mac.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,6 +185,29 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		B9309F487B16FF74C8AEF410 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C17832EA75575860D711B030 /* Pods_MRubyKit_Examples_MRubyKit_Example_Mac.framework */,
+				47CD84E18BFC401C76ED40F2 /* Pods_MRubyKit_Examples_MRubyKit_Example.framework */,
+				8FA40563E6754AC094CB29BE /* Pods_MRubyKit_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEE8FF0F2505589400DACF50 /* MRubyKit_Example_Mac */ = {
+			isa = PBXGroup;
+			children = (
+				CEE8FF102505589400DACF50 /* AppDelegate.swift */,
+				CEE8FF122505589400DACF50 /* ViewController.swift */,
+				CEE8FF142505589500DACF50 /* Assets.xcassets */,
+				CEE8FF162505589500DACF50 /* Main.storyboard */,
+				CEE8FF192505589500DACF50 /* Info.plist */,
+				CEE8FF1A2505589500DACF50 /* MRubyKit_Example_Mac.entitlements */,
+			);
+			path = MRubyKit_Example_Mac;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +215,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "MRubyKit_Example" */;
 			buildPhases = (
+				6546A884D92EA207EDBFF1A7 /* [CP] Check Pods Manifest.lock */,
+				12D87CCEF3733D7F284ECF7C /* [CP] Prepare Artifacts */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
+				1A0CFE206EF4B3139E925012 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,9 +235,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "MRubyKit_Tests" */;
 			buildPhases = (
+				9CC1AC4E9149E6101E6EFCC9 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
+				79CFD92CC74575A5C1512E0C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -165,13 +251,33 @@
 			productReference = 607FACE51AFB9204008FA782 /* MRubyKit_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		CEE8FF0D2505589400DACF50 /* MRubyKit_Example_Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE8FF1B2505589500DACF50 /* Build configuration list for PBXNativeTarget "MRubyKit_Example_Mac" */;
+			buildPhases = (
+				326B382BD513295521D34206 /* [CP] Check Pods Manifest.lock */,
+				146462E7BBCC322EBA40A056 /* [CP] Prepare Artifacts */,
+				CEE8FF0A2505589400DACF50 /* Sources */,
+				CEE8FF0B2505589400DACF50 /* Frameworks */,
+				CEE8FF0C2505589400DACF50 /* Resources */,
+				AB0BC25E77546A732A94FAA3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MRubyKit_Example_Mac;
+			productName = MRubyKit_Example_Mac;
+			productReference = CEE8FF0E2505589400DACF50 /* MRubyKit_Example_Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
@@ -184,13 +290,19 @@
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
+					CEE8FF0D2505589400DACF50 = {
+						CreatedOnToolsVersion = 12.0;
+						DevelopmentTeam = 4XKKKM86RN;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
-			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "PROJECT" */;
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "MRubyKit" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -201,6 +313,7 @@
 			targets = (
 				607FACCF1AFB9204008FA782 /* MRubyKit_Example */,
 				607FACE41AFB9204008FA782 /* MRubyKit_Tests */,
+				CEE8FF0D2505589400DACF50 /* MRubyKit_Example_Mac */,
 			);
 		};
 /* End PBXProject section */
@@ -223,7 +336,179 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CEE8FF0C2505589400DACF50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE8FF152505589500DACF50 /* Assets.xcassets in Resources */,
+				CEE8FF182505589500DACF50 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12D87CCEF3733D7F284ECF7C /* [CP] Prepare Artifacts */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MRubyKit-Examples-MRubyKit_Example/Pods-MRubyKit-Examples-MRubyKit_Example-artifacts.sh",
+				"${PODS_ROOT}/libmruby/libmruby.xcframework",
+			);
+			name = "[CP] Prepare Artifacts";
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/cocoapods-artifacts-${CONFIGURATION}.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MRubyKit-Examples-MRubyKit_Example/Pods-MRubyKit-Examples-MRubyKit_Example-artifacts.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		146462E7BBCC322EBA40A056 /* [CP] Prepare Artifacts */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MRubyKit-Examples-MRubyKit_Example_Mac/Pods-MRubyKit-Examples-MRubyKit_Example_Mac-artifacts.sh",
+				"${PODS_ROOT}/libmruby/libmruby.xcframework",
+			);
+			name = "[CP] Prepare Artifacts";
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/cocoapods-artifacts-${CONFIGURATION}.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MRubyKit-Examples-MRubyKit_Example_Mac/Pods-MRubyKit-Examples-MRubyKit_Example_Mac-artifacts.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A0CFE206EF4B3139E925012 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MRubyKit-Examples-MRubyKit_Example/Pods-MRubyKit-Examples-MRubyKit_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/cocoapods-artifacts-${CONFIGURATION}.txt",
+				"${BUILT_PRODUCTS_DIR}/MRubyKit-iOS/MRubyKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MRubyKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MRubyKit-Examples-MRubyKit_Example/Pods-MRubyKit-Examples-MRubyKit_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		326B382BD513295521D34206 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MRubyKit-Examples-MRubyKit_Example_Mac-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6546A884D92EA207EDBFF1A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MRubyKit-Examples-MRubyKit_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79CFD92CC74575A5C1512E0C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MRubyKit_Tests/Pods-MRubyKit_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MRubyKit_Tests/Pods-MRubyKit_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CC1AC4E9149E6101E6EFCC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MRubyKit_Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB0BC25E77546A732A94FAA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MRubyKit-Examples-MRubyKit_Example_Mac/Pods-MRubyKit-Examples-MRubyKit_Example_Mac-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/cocoapods-artifacts-${CONFIGURATION}.txt",
+				"${BUILT_PRODUCTS_DIR}/MRubyKit-macOS/MRubyKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MRubyKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MRubyKit-Examples-MRubyKit_Example_Mac/Pods-MRubyKit-Examples-MRubyKit_Example_Mac-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		607FACCC1AFB9204008FA782 /* Sources */ = {
@@ -240,6 +525,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE8FF0A2505589400DACF50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE8FF132505589400DACF50 /* ViewController.swift in Sources */,
+				CEE8FF112505589400DACF50 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +562,14 @@
 				607FACDF1AFB9204008FA782 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		CEE8FF162505589500DACF50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE8FF172505589500DACF50 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -374,6 +676,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1D45E19C66E8CFB2A4805CD /* Pods-MRubyKit-Examples-MRubyKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MRubyKit/Info.plist;
@@ -382,12 +685,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A8251EFDF972EE4F2AE9F98 /* Pods-MRubyKit-Examples-MRubyKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MRubyKit/Info.plist;
@@ -396,12 +700,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDB90D52C2A44C3408F306DC /* Pods-MRubyKit_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -423,6 +728,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 822C82850336F4B024909512 /* Pods-MRubyKit_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -438,10 +744,79 @@
 			};
 			name = Release;
 		};
+		CEE8FF1C2505589500DACF50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5225FB786B06B898363A7D36 /* Pods-MRubyKit-Examples-MRubyKit_Example_Mac.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = MRubyKit_Example_Mac/MRubyKit_Example_Mac.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 4XKKKM86RN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MRubyKit_Example_Mac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.MRubyKit-Example-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CEE8FF1D2505589500DACF50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87C5196B59E764C1B2EA7F16 /* Pods-MRubyKit-Examples-MRubyKit_Example_Mac.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = MRubyKit_Example_Mac/MRubyKit_Example_Mac.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4XKKKM86RN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MRubyKit_Example_Mac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.MRubyKit-Example-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "PROJECT" */ = {
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "MRubyKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACED1AFB9204008FA782 /* Debug */,
@@ -464,6 +839,15 @@
 			buildConfigurations = (
 				607FACF31AFB9204008FA782 /* Debug */,
 				607FACF41AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE8FF1B2505589500DACF50 /* Build configuration list for PBXNativeTarget "MRubyKit_Example_Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE8FF1C2505589500DACF50 /* Debug */,
+				CEE8FF1D2505589500DACF50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
